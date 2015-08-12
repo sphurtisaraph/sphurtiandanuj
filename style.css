@@ -1,0 +1,49 @@
+#names h1{
+	font-size: 120px;
+	font-family: 'Amatic SC';
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+#page_one_wrapper {
+	position: relative;
+	height: 800px;
+}
+#page_one {
+	background-image: url('pr.jpg');
+	background-size: cover;	
+	height: 100%;
+}
+
+#page_two_wrapper {
+	display: inline-flex;
+}
+
+#section_left {
+	max-width: 33%;
+	margin-right: 30%;
+	border-right: #ccc;
+	display: inline;
+}
+
+#section_center {
+	max-width: 33%;
+	margin-left: 63%;
+	margin-right: 30%;
+	border-left: #ccc;
+	border-right: #ccc;
+	display: inline;
+}
+
+#section_right {
+	max-width: 33%;
+	broder-left: #ccc;
+	display: inline;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Amatic SC', cursive;
+}
